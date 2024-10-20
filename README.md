@@ -15,3 +15,15 @@
 
 7) Al posto di npm run build, potreste eseguire npm run dev e lasciarlo attivo
 Aprire un altro terminale ed eseguire il comando php artisan serve
+
+# Migrations:
+
+Importante quando si crea una migration scrivere create_nometabella_table ES: php artisan make:migration create_trains_table
+facendo cosi crea gia' la sezione di creazione della tabella e di eliminazione.
+
+php artisan migrate per creare le migrations
+php artisan migrate:rollback per tornare indietro.
+
+# Seeders:
+
+php artisan make:seeder TrainSeeder
