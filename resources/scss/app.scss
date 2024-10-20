@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+
+main {
+    background-image: url('../img/testimg.webp');
+    background-repeat: no-repeat;
+    h1 {
+        color: lightcoral;
+    }
+
+    img {
+        height: 335px;
+    }
+}
